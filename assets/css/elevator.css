@@ -3138,7 +3138,7 @@ ul {
 
 .cta-one__title {
   font-size: 34px;
-  color: var(--elevator-white);
+  color: #503c3c;
   font-weight: 700;
   line-height: 46px;
 }
@@ -3151,7 +3151,7 @@ ul {
 }
 
 .cta-one__number a {
-  color: var(--elevator-white);
+  color: #503c3c;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -5873,6 +5873,7 @@ ul {
 
 .get-to-know__img-2:before {
   position: absolute;
+  /* border-radius:20px ; */
   bottom: -16px;
   left: 0;
   right: 0;
@@ -6392,6 +6393,7 @@ ul {
   width: 90px;
   height: 96px;
   cursor: pointer;
+  /* border-radius: ; */
   z-index: 1;
 }
 
@@ -6550,4 +6552,7 @@ ul {
 
 .brand-two .brand-one__single:before {
   background-color: var(--elevator-white);
+}
+.testimonial-one__img-holder{
+  border-radius: 60px;
 }
