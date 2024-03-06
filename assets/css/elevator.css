@@ -509,6 +509,7 @@ ul {
 .main-menu-wrapper__logo {
   position: relative;
   margin-right: 40px;
+  
 }
 
 .main-menu-wrapper__btn-box {
@@ -3206,6 +3207,7 @@ ul {
 
 .cta-one__btn-box {
   margin-left: 100px;
+  margin: 20px  auto;
 }
 
 .cta-one__btn {
@@ -6402,7 +6404,7 @@ ul {
   left: 120px;
   right: -10000000000px;
   content: "";
-  background-color: var(--elevator-primary);
+  /* background-color: var(--elevator-primary); */
   z-index: -1;
 }
 
@@ -6602,4 +6604,9 @@ ul {
 
 .testimonial-one__img-holder {
   border-radius: 60px;
+}
+
+
+a.thm-btn.cta-one__btn.buttonnew {
+  width: 140%;
 }
